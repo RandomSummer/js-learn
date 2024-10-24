@@ -1,6 +1,6 @@
 let score = "100abc"
 
-console.log(typeof score);
+// console.log(typeof score);
 
 // let valueInNumber = Number(score)
 
@@ -36,6 +36,16 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let value = 3
 let negValue = -value
 
-console.log(negValue)
+// console.log(negValue)
+
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "2"); // 32
+
+let newValue1 = +true
+let newValue2 = +""
+
+console.log(newValue1, newValue2);
 
 
