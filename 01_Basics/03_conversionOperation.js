@@ -2,7 +2,7 @@ let score = "100abc"
 
 console.log(typeof score);
 
-let valueInNumber = Number(score)
+// let valueInNumber = Number(score)
 
 /*
 Conversion of any datatype to number is
@@ -18,7 +18,7 @@ let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 /*
 1 => true; 0 => false
@@ -26,9 +26,16 @@ console.log(booleanIsLoggedIn);
 "RandomSummer" => true
 */
 
-console.log(typeof(valueInNumber));
+// console.log(typeof(valueInNumber));
 
-console.log(valueInNumber); // Output: NaN
+// console.log(valueInNumber); // Output: NaN
 
+
+// ********************************* Operations **********************************
+
+let value = 3
+let negValue = -value
+
+console.log(negValue)
 
 
