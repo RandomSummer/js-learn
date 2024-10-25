@@ -23,12 +23,12 @@ const bigNumber = 3472987294247829
 
 const heroes = ["Ironman", "Thor", "Deadpool", "Wolverine"]
 
-let myObj = {
+let myObj = { // object
     name: "RandomSummer",
     age: 20,
 }
 
-const myFunciton = function(){
+const myFunciton = function(){ // function
     console.log("Hello World");
     
 }
