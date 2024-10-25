@@ -1,5 +1,5 @@
 // Primitive 
-
+// call by value
 // 7 Types: String, number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
@@ -34,4 +34,32 @@ const myFunciton = function(){ // function
 }
 
 console.log(typeof myFunciton)
+
+
+// ***********************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "AnimeVibe"
+
+let anotherName = myYoutubename
+anotherName = "RandomSummer"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "randomsummer@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
 
